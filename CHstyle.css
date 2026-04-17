@@ -1,0 +1,70 @@
+/* General body and font styling */
+body, html {
+    background-color: #111b21;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Profile container for forms */
+.profile-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #202c33;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #2a3942;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #25d366;
+    background-color: #233136;
+}
+
+/* Button styling */
+.submit-button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #25d366;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #20bb59;
+}

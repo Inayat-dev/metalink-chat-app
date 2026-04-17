@@ -1,0 +1,97 @@
+body, html{
+    background-color: #111b21;
+}
+
+.search-bar {
+    display: flex;
+    background-color: #202c33;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+}
+
+.chat-list {
+    margin-top: 20px;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.chat-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+
+
+.chat-info {
+    flex-grow: 1;
+}
+
+.chat-info h5 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: #25d366;
+}
+
+.chat-info p {
+    font-size: 0.9rem;
+    color: #a7a7a7;
+   
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: #49bcffd2;
+}
+
+.chat-time p {
+    color: #a7a7a7;
+    font-size: 0.8rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    
+}
+
+.online{
+    background-color: #14f767;
+}
+
+.offline{
+    background-color: #969696;
+}
+
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+    background-color: #202c33;
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    margin: 0 0 0 -10px;
+}
+
+.icon {
+    color: #b5b8b8;
+}
+
